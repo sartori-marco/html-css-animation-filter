@@ -97,24 +97,50 @@
   filter: grayscale(80%) sepia(80%);
   border-radius: 30px;
 }
-
-
+/* end 8 */
 
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
 }
 
+.ex-9-img:hover{
+  filter: grayscale(80%) sepia(80%);
+  border-radius: 30px;
+  transform: scale(0.5);
+}
+/* end 9 */
 
 
 
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 2s linear infinite;
 }
+
+@keyframes spin{
+  0% {
+    transform: rotate(1turn);
+  }
+}
+
+/* end 10 */
+
+
 .ex-11-icon {
     font-size: 60px;
+
 }
+
+.ex-11-icon:hover{
+  transform: rotate();
+}
+
+
+
+/* end 11 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
